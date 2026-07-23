@@ -36,3 +36,32 @@ input:focus{
     background-color: red;
     color:white;
 }
+thead{
+    background-color: blue;
+    color:gold;
+}
+tbody{
+    background-color: white;
+}
+.table{
+    width: 100%;
+    box-shadow: 2px 2px gray;
+    border:2px solid gold;
+    border-collapse: collapse;
+}
+.table td{
+padding: 20px;
+}
+.table tr{
+    border-bottom: 2px solid gold;
+}
+.checkin{
+    font-size:11pt;
+    padding-right: 10px;
+    color:green;
+}
+.pending{
+    font-size:11pt;
+    padding-right: 10px;
+    color:orange;
+}
