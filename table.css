@@ -1,0 +1,38 @@
+.a td{
+    color:blue;
+    padding: 10px;
+}
+i{
+    color:gold;
+}
+.heading{
+    text-decoration:underline;
+    padding-bottom: 10px;
+    background-color:gold;
+}
+#underline{
+    border-bottom: 2px solid rgba(212,175,55,0.5);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.report span{
+    border: 1px solid rgba(212,175,55,0.5);
+    margin-right:25px;
+    box-shadow: 2px 2px gray;
+    padding:20px;
+    display:inline-block;
+    margin-top:20px;
+}
+.report span i{
+    padding-left:25px;
+}
+.report div{
+    font-family:Georgia;
+    margin-top: 25px;
+    font-size: 18pt;
+    font-weight: bold;
+}
+input:focus{
+    background-color: red;
+    color:white;
+}

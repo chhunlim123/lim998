@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROOM</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <form>
+        <table align="center" class="a">
+        <caption>
+            <h2>
+                <u>Create Room Information</u>
+            </h2>
+        </caption>
+        <tr>
+            <td>
+                <label>Room Number</label>
+            </td>
+            <td>
+                :<input type="text" name="txtRnumber" id="txtRnumber">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Room Type</label>
+            </td>
+            <td>
+                :<select name="txtRtype" id="txtRtype">
+                    <option>Single Room</option>
+                    <option>Double Room</option> 
+                    <option>Family Room</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Room Price</label>
+            </td>
+            <td>
+                :<input type="text" name="txtRprice" id="txtRprice" min=0>
+            </td>
+        </tr>
+         <tr>
+            <td>
+                <label>Status</label>
+            </td>
+            <td>
+                :<select name="txtRstatus" id="txtRstatus">
+                    <option>Available</option>
+                    <option>Maintenance</option>
+                </select>
+            </td>
+        </tr>
+         <tr>
+            <td></td>
+            <td>
+                <input type="submit">
+                <input type="reset" value="Clear">
+            </td>
+        </tr>
+    </table>
+    </form>  
+</body>
+</html>

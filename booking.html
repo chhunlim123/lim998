@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                <h2>info</h2>
+            </legend>
+            <table cellpadding="10" align="center" class="a">
+                <caption>
+                    <h1>Create new booking</h1>
+                </caption>
+                <tr>
+                    <td><lebel>Customer Name</lebel></td>
+                    <td>:</td>
+                    <td><input type ="text"
+                            placeholder="type here..." required></td>
+                </tr>
+                <tr>
+                    <td><label>Tel</label></td>
+                    <td>:</td>
+                    <td><input type="text"
+                        placeholder="type here...." required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>:</td>
+                    <td>
+                        <input type="radio" name="txtGender"
+                        value="female">female
+                        <input type="radio" name="txtGender"
+                        value="male">Male
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>ID Card / Passport</label></td>
+                    <td>:</td>
+                    <td>
+                        <input type="file">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Check In</label></td>
+                    <td>:</td>
+                    <td>
+                        <input type="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Check Out</label></td>
+                    <td>:</td>
+                    <td>
+                        <input type="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Room Number</label></td>
+                    <td>:</td>
+                    <td>
+                        <select>
+                            <optgroup label="Single Room">
+                                <option>101</option>
+                                <option>102</option>
+                                <option>103</option>
+                            </optgroup>
+                            <optgroup label="Double Room">
+                                <option>201</option>
+                                <option>202</option>
+                                <option>203</option>
+                            </optgroup>
+                            <optgroup label="Family Room">
+                                <option>301</option>
+                                <option>302</option>
+                                <option>303</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Total Amount</label></td>
+                    <td>:</td>
+                    <td><label>0</label></td>
+                </tr>
+                <tr>
+                    <td><label>Payment Method</label></td>
+                    <td>:</td>
+                    <td><select>
+                        <option>Cash</option>
+                        <option>ABA</option>
+                        <option>Aceleda</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Booking Amount</label></td>
+                    <td>:</td>
+                    <td><input type="number">$</td>
+                </tr>
+                <tr>
+                    <td><label>Note</label></td>
+                    <td>:</td>
+                    <td>
+                        <textarea rows="3" cols="30" placeholder="type here"></textarea>
+                    </td>
+                    <tr>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <input type="submit">
+                        <input type="reset">
+                    </td>
+                </tr>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
